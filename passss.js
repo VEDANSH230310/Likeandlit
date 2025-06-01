@@ -1,5 +1,6 @@
 function check(){
 const cache=process.env.PASSWORD
+    console.log(cache)
     cache=string(cache)
 pass=document.getElementById("pass").value;
 if (pass==cache){
