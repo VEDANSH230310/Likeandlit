@@ -1,6 +1,6 @@
 function check(){
 pass=document.getElementById("pass").value;
-if (pass=="VEDANsh2100"){
+if (pass==process.env.PASSWORD){
     document.getElementById("form").innerHTML='<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfttAEDi23OGMDYXCaT5PwgNT1CMxJIE8AM8nmPaTchk6aK6Q/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe><br>'
     document.getElementById("button").innerHTML=""
 }
